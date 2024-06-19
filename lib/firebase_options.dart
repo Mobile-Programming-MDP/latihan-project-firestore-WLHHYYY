@@ -23,20 +23,11 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -50,19 +41,48 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA6QpT0u5aqX8_tY0kYPbCRwhMvQ-f0ddw',
-    appId: '1:848539166243:web:f7db88a935bf34da3c3396',
-    messagingSenderId: '848539166243',
-    projectId: 'notes-d2a3a',
-    authDomain: 'notes-d2a3a.firebaseapp.com',
-    storageBucket: 'notes-d2a3a.appspot.com',
+    apiKey: 'AIzaSyBptwodvgOb4dsSOXbZmSfcDzL-RC9u5Vc',
+    appId: '1:152974950927:web:7cb1bd42d5e0ebe058d97a',
+    messagingSenderId: '152974950927',
+    projectId: 'notes-wilhy',
+    authDomain: 'notes-wilhy.firebaseapp.com',
+    storageBucket: 'notes-wilhy.appspot.com',
+    measurementId: 'G-S9Y0NXRWH6',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD_XHI67JZapFYiyQC-GLFebcQ9JWkA0SE',
-    appId: '1:848539166243:android:51ada6d9b70cbc473c3396',
-    messagingSenderId: '848539166243',
-    projectId: 'notes-d2a3a',
-    storageBucket: 'notes-d2a3a.appspot.com',
+    apiKey: 'AIzaSyBDDcuOw5SvAdw-fsu4nATZe3jn7XoNoQ0',
+    appId: '1:152974950927:android:e2b48b3f140a5afb58d97a',
+    messagingSenderId: '152974950927',
+    projectId: 'notes-wilhy',
+    storageBucket: 'notes-wilhy.appspot.com',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyBEN9LUIkzutFjidKk5WTtCouArOWZaUc8',
+    appId: '1:152974950927:ios:e53f4f11f691b7af58d97a',
+    messagingSenderId: '152974950927',
+    projectId: 'notes-wilhy',
+    storageBucket: 'notes-wilhy.appspot.com',
+    iosBundleId: 'com.example.notes',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyBEN9LUIkzutFjidKk5WTtCouArOWZaUc8',
+    appId: '1:152974950927:ios:e53f4f11f691b7af58d97a',
+    messagingSenderId: '152974950927',
+    projectId: 'notes-wilhy',
+    storageBucket: 'notes-wilhy.appspot.com',
+    iosBundleId: 'com.example.notes',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyBptwodvgOb4dsSOXbZmSfcDzL-RC9u5Vc',
+    appId: '1:152974950927:web:6c5daad37501868d58d97a',
+    messagingSenderId: '152974950927',
+    projectId: 'notes-wilhy',
+    authDomain: 'notes-wilhy.firebaseapp.com',
+    storageBucket: 'notes-wilhy.appspot.com',
+    measurementId: 'G-680C48QZX6',
   );
 }

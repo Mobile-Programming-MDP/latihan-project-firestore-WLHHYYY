@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "152974950927",
-    "project_id": "notes-wilhy",
-    "storage_bucket": "notes-wilhy.appspot.com"
+    "project_number": "458618928116",
+    "project_id": "notes-wili",
+    "storage_bucket": "notes-wili.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:152974950927:android:e2b48b3f140a5afb58d97a",
+        "mobilesdk_app_id": "1:458618928116:android:c43f929db1f65e51c797a1",
         "android_client_info": {
           "package_name": "com.example.notes"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBDDcuOw5SvAdw-fsu4nATZe3jn7XoNoQ0"
+          "current_key": "AIzaSyANuhQRortOdxGgz090rtbmO_5QBr-38e4"
         }
       ],
       "services": {
